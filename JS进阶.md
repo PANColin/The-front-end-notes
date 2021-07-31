@@ -22,13 +22,13 @@ element.offsetWidth/Height = 元素内容width、height
 
 `element.offsetParent` 返回距离该元素最近的带有定位的父级元素
 
-如果当前元素的父级元素没有进行 CSS 定位（`absolute`、`relative`） 此元素的 `offsetParent` 为 `body`
+如果当前元素的父级元素没有进行 CSS 定位，此元素的 `offsetParent` 为 `body`
 
 如果当前元素是 `fixed` 定位，那么返回值为 *null*
 
 ## offsetLeft 和 offsetTop
 
-`element.offsetTop/Left` 返回元素与它的**offsetParent**边框的上左边距，如果元素的**offsetParent**是**body**，那么**body**的边框宽度也会计算在内。
+`element.offsetTop/Left` 返回元素与它的**offsetParent**边框的上左边距
 
 返回值是只读属性且始终是整数。
 
